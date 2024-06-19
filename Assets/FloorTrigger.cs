@@ -39,10 +39,6 @@ public class FloorTrigger : MonoBehaviour{
         }
 
         GameObject primaryFloor = generatedFloors.First();
-        if (primaryFloor == null)
-        {
-            Debug.Log("Primary floor is fucking null!");
-        }
 
         return floor.Equals(primaryFloor);
     }
